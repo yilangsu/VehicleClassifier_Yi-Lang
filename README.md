@@ -7,7 +7,6 @@ Designed to run in Google Colab with data and results stored on Google Drive.
 ## Project Structure
 
 ```
-VehicleClassifier_Yi Lang/
 ├── vehicle_classification_Yi_Lang.ipynb   # Main notebook (data prep, training, evaluation)
 ├── Data/
 │   ├── Raw/                               # Input zip (vehicle_classification.zip)
@@ -44,4 +43,4 @@ Trained for 10 epochs on 26,378 images (21,102 train / 5,276 test).
 | Final Testing Accuracy | 81.48% |
 | Best Testing Accuracy | 82.73% (epoch 7) |
 
-See [`Results/Logs/training_curves.png`](VehicleClassifier_Yi%20Lang/Results/Logs/training_curves.png) for loss/accuracy curves and [`Results/Summary/final_summary.txt`](VehicleClassifier_Yi%20Lang/Results/Summary/final_summary.txt) for the full run summary.
+See [`Results/Logs/training_curves.png`](Results/Logs/training_curves.png) for loss/accuracy curves and [`Results/Summary/final_summary.txt`](Results/Summary/final_summary.txt) for the full run summary.
